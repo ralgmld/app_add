@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tab_call"
+        android:enabled="true"
+        android:icon="@drawable/ic_call"
+        android:title="통화기록" />
+    <item
+        android:id="@+id/tab_record"
+        android:enabled="true"
+        android:icon="@drawable/ic_mic"
+        android:title="녹음파일"/>
+
+    <item
+        android:id="@+id/tab_list"
+        android:enabled="true"
+        android:icon="@drawable/ic_list"
+        android:title="차단목록">
+    </item>
+
+    <item
+        android:id="@+id/tab_mypage"
+        android:enabled="true"
+        android:icon="@drawable/ic_user"
+        android:title="마이페이지">
+    </item>
+
+</menu>
